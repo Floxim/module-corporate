@@ -1,0 +1,5 @@
+{
+  "name" : "floxim/module-corporate",
+  "description" : "Floxim corporate module.",
+  "type" : "floxim-module"
+}
