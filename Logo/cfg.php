@@ -8,7 +8,7 @@ return array(
                 '!limit' => 1,
                 '!sorting' => 'manual',
                 '!sorting_dir' => 'asc',
-                '!parent_type' => 'certain_page'
+                '!parent_type' => 'none'
             ),
             'default_scope' => 'all'
         ),
