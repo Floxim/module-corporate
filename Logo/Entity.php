@@ -23,9 +23,9 @@ class Entity extends \Floxim\Main\Content\Entity
         return  '/';
     }
     
-    public function fake()
+    public function fake($level = 0)
     {
-        parent::fake();
+        parent::fake($level);
         $this['image'] = '/module/Floxim/Corporate/Logo/fake.png';
         $this['name'] = 'Супер-компания';
         $this['tagline'] = 'Мысли иначе!';
